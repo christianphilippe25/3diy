@@ -1,0 +1,21 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.Header .Logo{
+    width: 200px;
+}
+
+.Header .Menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Header .Menu-Item {
+    flex-direction: row;
+    margin: 10px;
+}
