@@ -1,0 +1,13 @@
+.Registrar form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Registrar .hidden {
+    display: none;
+}
+
+.Registrar .block {
+    margin: 10px;
+}

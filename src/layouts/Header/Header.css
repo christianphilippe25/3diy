@@ -2,20 +2,27 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-grow: 1;
 }
 
 .Header .Logo{
     width: 200px;
+    height: 100px;
 }
 
 .Header .Menu {
+    flex: 1;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: right;
+    flex-wrap: wrap;
 }
 
 .Header .Menu-Item {
     flex-direction: row;
-    margin: 10px;
+    padding: 20px;
+}
+
+.Header .Menu-Item:hover{
+    background-color: grey;
 }
