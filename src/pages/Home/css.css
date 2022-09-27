@@ -1,0 +1,26 @@
+main .container .paths, main .container .printers{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+main .container{
+    margin: 50px 0px;
+}
+
+main .container .paths > div, main .container .printers > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-size: x-large;
+}
+
+main .container .printers > div{
+    width: 300px;
+    align-items: flex-start;
+}

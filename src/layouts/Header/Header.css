@@ -5,6 +5,7 @@
 }
 
 .Header .Logo{
+    padding: 0px 10px;
     width: 200px;
     height: 100px;
 }

@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.Registrar form input{
+    padding: 10px;
+}
+
 .Registrar .hidden {
     display: none;
 }
